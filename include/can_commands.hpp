@@ -27,6 +27,7 @@ namespace CanDriver
 	{
 		SOFTKILL = 0x000,
 		CLEARERR = 0x00A,
+		MOTOR = 0x010,
 		DREQ = 0x020,
 		DRES = 0x021,
 		STOW = 0x022

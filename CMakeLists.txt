@@ -65,7 +65,7 @@ set(INCLUDE_HEADERS
 	include/can_commands.hpp
 )
 
-install(FILES ${INCLUDE_HEADERS} DESTINATION include/${PROJECT_NAME}) # Install Public Headers to Machine
+install(FILES ${INCLUDE_HEADERS} DESTINATION include/robot_libraries) # Install Public Headers to Machine
 
 # debug
 add_compile_options(-g)
